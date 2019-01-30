@@ -1,0 +1,268 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "everyday sounds",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "answer"
+                        }
+                    ],
+                    "samples": [
+                        "that is the sound of {answer}",
+                        "that is the sound of an {answer}",
+                        "that is the sound of a {answer}",
+                        "that's the sound of {answer}",
+                        "that's the sound of an {answer}",
+                        "that's the sound of a {answer}",
+                        "an {answer}",
+                        "a {answer}",
+                        "i would say that is an {answer}",
+                        "i would say that is a {answer}",
+                        "i'm going with an {answer}",
+                        "i'm going with a {answer}",
+                        "that's definitely an {answer}",
+                        "that's definitely a {answer}",
+                        "it's probably an {answer}",
+                        "it's probably a {answer}",
+                        "that is an {answer}",
+                        "that's an {answer}",
+                        "i'd say it is a {answer}",
+                        "i'd say that was a {answer}",
+                        "i'll go for a {answer}",
+                        "my guess is a {answer}",
+                        "i think it is a {answer}",
+                        "that is a {answer}",
+                        "that's a {answer}",
+                        "it's a {answer}",
+                        "is it {answer}",
+                        "{answer}"
+                    ]
+                },
+                {
+                    "name": "StartNewGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "new game",
+                        "start a new game"
+                    ]
+                },
+                {
+                    "name": "PassIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want to pass",
+                        "i will pass",
+                        "i'll pass",
+                        "pass question",
+                        "pass"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "NumberOfPlayers",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "h"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "answer",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "sheep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "horse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cat",
+                                "synonyms": [
+                                    "kitty",
+                                    "kitten"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "birds",
+                                "synonyms": [
+                                    "bird"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "door bell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sneeze",
+                                "synonyms": [
+                                    "someone sneezing",
+                                    "sneezing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cough",
+                                "synonyms": [
+                                    "someone coughing",
+                                    "coughing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "baby crying",
+                                "synonyms": [
+                                    "crying",
+                                    "baby"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "firework",
+                                "synonyms": [
+                                    "fireworks"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "drums",
+                                "synonyms": [
+                                    "drummer",
+                                    "drum kit",
+                                    "drum"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "trumpet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sea",
+                                "synonyms": [
+                                    "ocean",
+                                    "waves"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "water",
+                                "synonyms": [
+                                    "water splashing",
+                                    "splashing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thunder",
+                                "synonyms": [
+                                    "lightning"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "keyboard",
+                                "synonyms": [
+                                    "someone typing",
+                                    "typing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "horn",
+                                "synonyms": [
+                                    "car horn"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "car",
+                                "synonyms": [
+                                    "engine"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bell"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
